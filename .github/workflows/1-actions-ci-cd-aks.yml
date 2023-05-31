@@ -2,8 +2,8 @@ name: 1-actions-ci-cd-aks
 
 on:
   push:
-    branches: [ master ]
-    paths: .github/workflows/1-actions-ci-cd-aks.yml
+    branches:
+    - master
   pull_request:
     branches: none # [ master ]
   # Allows you to run this workflow manually from the Actions tab
