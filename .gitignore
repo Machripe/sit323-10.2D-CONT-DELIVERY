@@ -1,10 +1,6 @@
 # ignore log files
 *.log
 
-# ignore docker files
-.Dockerfile
-.docker-compose.yml
-
 # ignore various IDE and otherwise generated files/directories
 .vs/
 .bundle/
